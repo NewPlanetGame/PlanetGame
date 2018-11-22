@@ -1,4 +1,4 @@
-# st of equations
+# List of equations
 * terminal velocity:V = sqrt ( (2 * W) / (Cd * r * A)
 
 where
