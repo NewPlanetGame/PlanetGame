@@ -1,0 +1,10 @@
+#List of scenes and what they are
+
+samplescene
+* default scene
+
+meshgenerator
+* mesh generation using a plane and a script using an equation
+
+
+> make sure you edit this readme for any scenes added or deleted. Thanks
