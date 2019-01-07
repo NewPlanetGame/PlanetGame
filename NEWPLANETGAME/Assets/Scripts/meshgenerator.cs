@@ -22,14 +22,13 @@ public class meshgenerator : MonoBehaviour {
 		UpdateMesh();
 	
 	}
-/* 
+ 
 	void Update(){
 		l = Mathf.RoundToInt(Time.time);
-		Debug.Log (l);
 		CreateShape();
 		UpdateMesh();
 	}
-*/
+
 	
 	// Update is called once per frame
 	void CreateShape () {
@@ -60,4 +59,14 @@ public class meshgenerator : MonoBehaviour {
 		mesh.triangles = triangles;
 		mesh.RecalculateNormals();
 	}
+
+	void OnDrawGizmos(){
+		if (vertices == null){
+			return;
+		}
+		for (int i = 0; i < vertices.Length; i++){
+		Gizmos.DrawSphere(vertices[i], .1f);
+		}
+	}
+	
 }

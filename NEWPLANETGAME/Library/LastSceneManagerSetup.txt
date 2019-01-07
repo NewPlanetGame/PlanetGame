@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/meshgeneratortest.unity
+- path: Assets/Scenes/preciseloading.unity
   isLoaded: 1
   isActive: 1
